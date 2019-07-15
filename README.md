@@ -12,6 +12,7 @@ A simple usage example of pyspark with spark-submit, including:
 ## preparing libraries (source and pip modules)
 from terminal, run:  
 ```pip install -r ./requirements.txt -t ./pip_modules && jar -cvf pip_modules.jar -C ./pip_modules .   ```
+
 ```jar -cvf src.jar -C ./src .   ```
 
 ## running spark-submit
